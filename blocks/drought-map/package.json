@@ -1,10 +1,10 @@
 {
-	"name": "ds-page-navigation",
+	"name": "drought-map",
 	"version": "1.0.0",
-	"description": "Page navigation lists and links to the level 2 headings of a webpage.",
+	"description": "Drought Map Description",
 	"author": "CAWebPublishing",
 	"license": "GPL-2.0-or-later",
-	"homepage": "https://github.com/CAWebPublishing/caweb-ds-page-navigation",
+	"homepage": "https://github.com/CAWebPublishing/caweb-drought-map",
 	"main": "build/index.js",
 	"scripts": {
 		"build": "wp-scripts build",
@@ -18,11 +18,10 @@
 		"update-block": "cd .. && caweb update-block %npm_package_name%"
 	},
 	"dependencies": {
-		"@cagov/ds-page-navigation": "^2.2.0",
 		"@wordpress/icons": "^9.6.0"
 	},
 	"devDependencies": {
-		"@wordpress/scripts": "^23.7.2",
+		"@wordpress/scripts": "^24.0.0",
 		"caweb-cli": "^0.0.9",
 		"fancy-log": "^2.0.0",
 		"gulp": "^4.0.2",
