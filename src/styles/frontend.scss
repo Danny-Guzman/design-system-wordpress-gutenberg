@@ -1,0 +1,28 @@
+body.design-system{
+	cagov-site-navigation {
+		.expanded-menu-section-header-arrow-svg{
+			fill: var(--primary-700);
+		}
+	}
+	
+	&.page-template-searchpage{
+		.section .container {
+			max-width: 1280px;
+			width: 100%;
+		}
+	}
+
+	// Google Translate this may be removed once Design System removes it's Google Translate styles.
+	#google_translate_element {
+		.skiptranslate.goog-te-gadget{
+			max-height: initial;
+			margin-bottom: 0;
+			color: inherit;
+
+			span {
+				color: inherit;
+			}
+		}
+
+	}
+}
